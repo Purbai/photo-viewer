@@ -16,8 +16,7 @@ function App() {
             {/* get the images */}
             <GetImageUrls/>
             {/* enlarge the image if selected */}
-            <ImageSelector imageSelectedUrl={imageSelectedUrl} setImageSelectedUrl={() => {setImageSelectedUrl(imageSelectedUrl)}} />
-            
+            <ImageSelector imageSelectedUrl={imageSelectedUrl} setImageSelectedUrl={() => {setImageSelectedUrl(imageSelectedUrl)}} />  
         </div>
 
     </>

@@ -9,7 +9,7 @@ export function ImageSelector( {imageSelectedUrl}:{imageSelectedUrl:string} , {s
     // const [imageselectedUrl, setImageSelectedUrl] = useState("");
     const thumbNails = imageUrls.map(
         (url) => 
-        <img className={(imageSelectedUrl === url ? "ImageSelected": "")} 
+        <img className={(imageSelectedUrl === url ? "ImageSelected": "ImageNotSelected")} 
         onClick={() => {setImageSelectedUrl(url)}} src={url} />)
 
     return (                
