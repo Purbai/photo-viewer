@@ -1,7 +1,10 @@
 .photo {
-    max-height: 200px;
-    max-width: 200px;
-    justify-content: flex-start;
+    max-height: 700px;
+    max-width: 700px;
+    justify-content: center;
+    border-color: blueviolet;
+    border-style: solid; 
+    border: thick 30px;
 }
 
 .thumbnail {
@@ -12,8 +15,8 @@
 
 .ImageSelected
 {
-    max-height: 60px;
-    max-width: 60px;
+    max-height: 100px;
+    max-width: 100px;
     border-style: solid;
     border-color: blueviolet;
 }
@@ -22,14 +25,6 @@
 {   flex-direction: column;
     flex-wrap: wrap;
     margin: 10px;
-    max-height: 40px;
-    max-width: 40px;
-}
-
-
-.photoborder {
-    display: block;
-    max-height: 100px;
-    max-width: 100px;
-    border-color: red;
+    max-height: 50px;
+    max-width: 50px;
 }
