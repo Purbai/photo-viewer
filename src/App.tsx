@@ -5,7 +5,7 @@ import {GetImageUrls} from './photoviewer/GetImageUrls';
 import { ImageSelector } from './photoviewer/ImageSelector';
 
 function App() {
-  const [imageSelectedUrl, setImageSelectedUrl] = useState("");
+  const [imageSelectedUrl, setImageSelectedUrl] = useState("https://picsum.photos/id/600/1600/900.jpg");
 
   return (
     <>
